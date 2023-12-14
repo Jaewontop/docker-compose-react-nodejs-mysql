@@ -1,5 +1,12 @@
 # Docker Compose React, Nodejs and MySQL example
 
+## 실행시키기 전에!
+1. conf/nginx.conf 에 server_name을 본인 본인 서버의 도메인으로 변경한다.
+2. 
+.env 파일의 CLIENT_ORIGIN과 CLIENT_API_BASE_URL을 각각
+http://내ip:3000
+http://내ip:8080/api로 바꾼다
+
 ## Run the System
 We can easily run the whole with only a single command:
 ```bash
